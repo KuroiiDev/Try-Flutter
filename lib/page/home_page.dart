@@ -21,6 +21,7 @@ class HomePage extends StatelessWidget {
           Row(
             children: [
               CustomMenu(imageAsset: 'triangle', title: 'Triangle'),
+              CustomMenu(imageAsset: 'octagon', title: 'Octagon'),
               CustomMenu(imageAsset: 'rectangle', title: 'Rectangle'),
             ],
           ),
